@@ -446,7 +446,8 @@ app.post("/api/clcul", (req, res) => {
    else {
       res.json({ msg: "msg 4" });
    }
-
+// business logic test
+console.log( "log businnes logic test");
 });
 // make app importable from another files
 module.exports = app;
